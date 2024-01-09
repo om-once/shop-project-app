@@ -3,7 +3,7 @@ import { Button, TextField } from '@mui/material'
 type Props = {
     countItems: number
     onclickFuncInc: any
-    onclickFuncDec: any
+    onclickFuncDec?: any
 }
 const ProductQuantity = ({
     countItems,

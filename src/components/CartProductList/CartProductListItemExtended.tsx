@@ -37,7 +37,6 @@ const CartProductListItemExtended = ({
                         onclickFuncInc={onIncrementClick}
                         onclickFuncDec={onDecrementClick}
                     />
-                    <p>Count: {productCount}</p>
                     <Button
                         variant="outlined"
                         onClick={() => removeProductFromCart(product.id)}
